@@ -1,0 +1,26 @@
+type = raw events
+count = 10  
+speed = 1.0  
+start data >> 
+#启动应用
+LaunchActivity(com.offcn.yidongzixishi,com.offcn.yidongzixishi.SplashActivity)
+#加等待时间
+UserWait(5000)
+# 点击跳过
+Tap(837,69,1000)
+UserWait(1000)
+#输入用户名
+DispatchString(16621248657)
+#输入密码
+Tap(76,500,1000)
+DispatchString(416416d)
+#点击登录
+Tap(455,700,1000)
+UserWait(5000)
+# 选择国家公务员
+Tap(93,195,1000)
+UserWait(5000)
+# 取消升级
+Tap(450,1172,1000)
+
+
