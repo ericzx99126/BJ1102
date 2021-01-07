@@ -1,0 +1,1 @@
+adb shell monkey -p com.offcn.yidongzixishi --ignore-crashes --ignore-timeouts --ignore-native-crashes  --pct-touch 70 --pct-syskeys 0 --pct-motion 30 -s 1 -v -v -v --throttle 200 2000 > D:/Projects/MobiStudyRoom_zwj/monkey.txt 2>D:/Projects/MobiStudyRoom_zwj/error.txt
