@@ -1,0 +1,1 @@
+adb shell monkey -p com.offcn.yidongzixishi --ignore-crashes --ignore-timeouts --ignore-native-crashes --pct-touch 70 --pct-syskeys 0 --pct-trackball 30 -s 1 -v -v -v --throttle 100 20000

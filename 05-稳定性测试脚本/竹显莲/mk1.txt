@@ -1,0 +1,45 @@
+#文件头
+type = raw events
+count =10
+speed = 1.0
+
+#正文开始
+start data >>
+
+#启动应用
+LaunchActivity(com.offcn.yidongzixishi,com.offcn.yidongzixishi.SplashActivity)
+
+UserWait(10000)
+
+#点击跳过
+Tap(843,69,1000)
+UserWait(1000)
+
+#输入手机号
+DispatchString(18336281141)
+UserWait(1000)
+
+# 输入密码
+Tap(70,488,1000)
+DispatchString(bamboo1997)
+
+# 点击登录
+Tap(462,704,1000)
+
+UserWait(1000)
+
+#点击公务员
+Tap(119,190,1000)
+
+UserWait(1000)
+
+#点击取消更新
+Tap(445,1167,1000)
+
+UserWait(1000)
+
+
+
+
+
+
