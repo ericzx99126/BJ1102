@@ -1,0 +1,36 @@
+# 文件头
+type = raw events
+count = 10
+speed = 1.0
+
+# 正文开始
+start data >>
+# 启动应用
+LaunchActivity(com.offcn.yidongzixishi,com.offcn.yidongzixishi.SplashActivity)
+
+UserWait(5000)
+
+# 点击跳过
+Tap(837,71,1000)
+
+UserWait(4000)
+
+# 输入用户名
+DispatchString(13261616954)
+UserWait(4000)
+
+# 输入密码
+Tap(121,499,1000)
+DispatchString(wz19941212)
+UserWait(4000)
+
+# 点击登录
+Tap(396,688,1000)
+UserWait(4000)
+
+# 选择科目
+Tap(451,1168,1000)
+
+# 点击跳过
+Tap(451,1168,1000)
+
