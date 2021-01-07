@@ -1,0 +1,54 @@
+type = raw events
+count = 10
+speed = 1.0
+start data >>
+
+#启动应用
+LaunchActivity(com.offcn.yidongzixishi,com.offcn.yidongzixishi.SplashActivity)
+UserWait(5000)
+
+#点击取消按钮
+Tap(841,70,1000)
+UserWait(5000)
+
+
+#输入手机号
+DispatchString(18595472614)
+
+#输入密码
+Tap(100,494,1000)
+DispatchString(Masizun142536)
+
+#点击登录按钮
+Tap(450,700,1000)
+UserWait(2000)
+
+#点击确定
+Tap(143,178,1000)
+UserWait(2000)
+
+#点击确定
+Tap(488,609)
+UserWait(2000)
+
+
+Tap(850,480)
+UserWait(2000)
+
+Tap(860,624)
+UserWait(2000)
+
+Tap(234,300)
+UserWait(2000)
+
+Tap(845,1267)
+UserWait(2000)
+
+Tap(786,345)
+UserWait(2000)
+
+Tap(839,91)
+UserWait(2000)
+
+
+
